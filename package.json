@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-kcd-egghead",
+  "version": "0.0.0",
+  "description": "Just a demo of an eslint plugin. Don't use this.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Kent C. Dodds",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "mocha": "^3.4.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "license": "MIT"
+}
